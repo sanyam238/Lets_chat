@@ -41,7 +41,7 @@ getData();
 function redirect_to_room_name(Room_names) {
       console.log(Room_names);
       localStorage.setItem("Room_names",Room_names);
-      window.location = "lets_chat_message";
+      window.location = "lets_chat_message.html";
       }
 
       function logout(){
